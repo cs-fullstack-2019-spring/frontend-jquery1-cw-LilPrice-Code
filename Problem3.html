@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+    <script>
+        //When user hits button every other row turns grey!!
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("tr:even").css("background-color", "grey")
+            })
+        })
+    </script>
+    <link rel="stylesheet" href="Pro3.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+    <tr>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+        <td> jQuery</td>
+    </tr>
+</table>
+<button>Change Color</button>
+</body>
+</html>
